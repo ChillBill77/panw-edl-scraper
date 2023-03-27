@@ -18,11 +18,13 @@ You could spin up a container with python in it.
 ### Windows
 ```sh
 docker run -it --rm -v "%cd%:/workdir" -w /workdir python:latest /bin/sh (on Windows)
+python3 scraper.py
 ```
 
 ### Linux/MAC
 ```sh
 docker run -it --rm -v "${PWD}:/workdir" -w /workdir python:latest /bin/sh
+python3 scraper.py
 ```
 
 ## Results
